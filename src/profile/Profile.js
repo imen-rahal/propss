@@ -18,7 +18,7 @@ import PropTypes from "prop-types";
           className="btn btn-primary" 
           onClick={(event) => {
             event.preventDefault();
-            props.showname();
+            props.showname(props.user.fullNAME);
           }}
         > c'est moi
         </a>

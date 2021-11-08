@@ -2,7 +2,7 @@ import Profile from "./profile/Profile";
 import image from "./profile/logo.jpg";
 
 function App() {
-  const showAlert = (name) => alert(user.fullNAME);
+  const showAlert = (name) => alert(name);
   const user = {
     fullNAME: "Imen RAHAL",
     bio: "Developpeur Web",
